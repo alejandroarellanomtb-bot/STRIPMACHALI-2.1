@@ -92,11 +92,21 @@
   //    Ej: { src: 'https://storage.googleapis.com/.../render-01.png', caption: 'Fachada principal' }
   //    Mientras el src esté vacío ('') se muestra un placeholder automático. ]]
   var galleryImages = [
-    { src: 'https://assets.cdn.filesafe.space/WL4jgf6ojjr7XZeJDSmm/media/6a2b3838e5084c4b7194ef7e.png', caption: 'Fachada principal' },
-    { src: 'https://assets.cdn.filesafe.space/WL4jgf6ojjr7XZeJDSmm/media/6a2b3c529bdda92b22daa38c.png', caption: 'Vista aérea · Polo Machalí' },
-    { src: 'https://assets.cdn.filesafe.space/WL4jgf6ojjr7XZeJDSmm/media/6a2b3838c53e51acc09575db.png', caption: 'Pasillo comercial' },
-    { src: 'https://assets.cdn.filesafe.space/WL4jgf6ojjr7XZeJDSmm/media/6a2b38380b818c92b3557aef.png', caption: 'Strip lineal' },
-    { src: 'https://assets.cdn.filesafe.space/WL4jgf6ojjr7XZeJDSmm/media/6a2b3838e5084c4b7194ef83.png', caption: 'Acceso a locales' }
+    { src: 'https://cdn.jsdelivr.net/gh/alejandroarellanomtb-bot/STRIPMACHALI-2.1@main/galeria-general.webp', caption: 'Vista general del Nuevo Polo Machalí' },
+    { src: 'https://cdn.jsdelivr.net/gh/alejandroarellanomtb-bot/STRIPMACHALI-2.1@main/galeria-strip-atardecer.webp', caption: 'Strip comercial al atardecer' },
+    { src: 'https://cdn.jsdelivr.net/gh/alejandroarellanomtb-bot/STRIPMACHALI-2.1@main/galeria-oficinas-fachada.webp', caption: 'Edificio de oficinas · fachada vidriada' },
+    { src: 'https://cdn.jsdelivr.net/gh/alejandroarellanomtb-bot/STRIPMACHALI-2.1@main/galeria-locales-marcas.webp', caption: 'Locales comerciales · primeras marcas' },
+    { src: 'https://cdn.jsdelivr.net/gh/alejandroarellanomtb-bot/STRIPMACHALI-2.1@main/galeria-paseo-comercial.webp', caption: 'Paseo comercial · cafés y tiendas' },
+    { src: 'https://cdn.jsdelivr.net/gh/alejandroarellanomtb-bot/STRIPMACHALI-2.1@main/galeria-alameda.webp', caption: 'Alameda y paseo peatonal' },
+    { src: 'https://cdn.jsdelivr.net/gh/alejandroarellanomtb-bot/STRIPMACHALI-2.1@main/galeria-terraza-gastro.webp', caption: 'Terraza gastronómica en altura' },
+    { src: 'https://cdn.jsdelivr.net/gh/alejandroarellanomtb-bot/STRIPMACHALI-2.1@main/galeria-terraza-mirador.webp', caption: 'Terraza mirador sobre el conjunto' },
+    { src: 'https://cdn.jsdelivr.net/gh/alejandroarellanomtb-bot/STRIPMACHALI-2.1@main/galeria-oficinas-cordillera.webp', caption: 'Oficinas en altura · vista a la cordillera' },
+    { src: 'https://cdn.jsdelivr.net/gh/alejandroarellanomtb-bot/STRIPMACHALI-2.1@main/galeria-oficinas-natural.webp', caption: 'Oficinas con entorno natural' },
+    { src: 'https://cdn.jsdelivr.net/gh/alejandroarellanomtb-bot/STRIPMACHALI-2.1@main/galeria-oficinas-ventanales.webp', caption: 'Oficinas · ventanales piso a techo' },
+    { src: 'https://cdn.jsdelivr.net/gh/alejandroarellanomtb-bot/STRIPMACHALI-2.1@main/galeria-lobby.webp', caption: 'Lobby de acceso en doble altura' },
+    { src: 'https://cdn.jsdelivr.net/gh/alejandroarellanomtb-bot/STRIPMACHALI-2.1@main/galeria-acceso-alero.webp', caption: 'Acceso peatonal bajo alero de madera' },
+    { src: 'https://cdn.jsdelivr.net/gh/alejandroarellanomtb-bot/STRIPMACHALI-2.1@main/galeria-interior-hormigon.webp', caption: 'Circulaciones interiores en hormigón visto' },
+    { src: 'https://cdn.jsdelivr.net/gh/alejandroarellanomtb-bot/STRIPMACHALI-2.1@main/galeria-explanada.webp', caption: 'Explanada y estacionamientos' }
   ];
 
   // Genera placeholder SVG si no hay src real
