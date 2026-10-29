@@ -336,7 +336,7 @@ p { margin: 0 0 1em 0; text-wrap: pretty; }
   width: 100%;
 }
 @media (min-width: 1024px) {
-  .hero-body { padding-bottom: 72px; }
+  .hero-body { max-width: none; padding: 0 clamp(40px, 5vw, 100px) 72px; }
 }
 .hero-grid {
   display: block;
